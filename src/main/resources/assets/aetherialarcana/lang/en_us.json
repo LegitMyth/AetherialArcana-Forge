@@ -1,0 +1,24 @@
+{
+  "item.aetherialarcana.aqua": "Aqua",
+  "item.aetherialarcana.raw_aqua": "Raw Aqua",
+
+  "item.aetherialarcana.magiberries": "Magiberries",
+
+  "item.aetherialarcana.magifuel": "Magifuel",
+
+  "item.aetherialarcana.magic_detector": "Magic Detector",
+
+  "block.aetherialarcana.aqua_block": "Block of Aqua",
+  "block.aetherialarcana.raw_aqua_block": "Raw Block of Aqua",
+
+  "block.aetherialarcana.aqua_ore": "Aqua Ore",
+  "block.aetherialarcana.deepslate_aqua_ore": "Deepslate Aqua Ore",
+  "block.aetherialarcana.nether_aqua_ore": "Nether Aqua Ore",
+  "block.aetherialarcana.end_stone_aqua_ore": "End Stone Aqua Ore",
+
+  "block.aetherialarcana.sound_block": "Sound Block",
+
+  "tooltip.aetherialarcana.magic_detector.tooltip": "Detects a magical presence beneath the earth",
+
+  "creativetab.aetherial_tab": "Aetherial Tab"
+}

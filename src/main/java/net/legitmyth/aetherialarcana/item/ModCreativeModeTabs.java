@@ -18,10 +18,18 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AQUA.get()))
                     .title(Component.translatable("creativetab.aetherial_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+
                         output.accept(ModItems.AQUA.get());
                         output.accept(ModItems.RAW_AQUA.get());
 
                         output.accept(ModBlocks.AQUA_BLOCK.get());
+                        output.accept(ModBlocks.RAW_AQUA_BLOCK.get());
+
+                        output.accept(ModBlocks.AQUA_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_AQUA_ORE.get());
+                        output.accept(ModBlocks.NETHER_AQUA_ORE.get());
+                        output.accept(ModBlocks.END_STONE_AQUA_ORE.get());
+
                     })
                     .build());
 

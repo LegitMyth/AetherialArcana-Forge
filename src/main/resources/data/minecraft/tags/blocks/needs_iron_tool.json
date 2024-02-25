@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "aetherialarcana:deepslate_aqua_ore"
+    "aetherialarcana:aqua_block",
+    "aetherialarcana:raw_aqua_block",
+    "aetherialarcana:aqua_ore",
+    "aetherialarcana:deepslate_aqua_ore",
+    "aetherialarcana:nether_aqua_ore"
   ]
 }

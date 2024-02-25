@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "ruby",
+  "ingredient": {
+    "item": "aetherialarcana:nether_aqua_ore"
+  },
+  "result": "aetherialarcana:aqua"
+}

@@ -1,6 +1,7 @@
 package net.legitmyth.aetherialarcana;
 
 import com.mojang.logging.LogUtils;
+import net.legitmyth.aetherialarcana.block.ModBlocks;
 import net.legitmyth.aetherialarcana.item.ModCreativeModeTabs;
 import net.legitmyth.aetherialarcana.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -29,6 +30,7 @@ public class AetherialArcana {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

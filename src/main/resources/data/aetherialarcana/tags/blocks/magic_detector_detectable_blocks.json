@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "aetherialarcana:aqua_ore",
+    "aetherialarcana:deepslate_aqua_ore",
+    "aetherialarcana:nether_aqua_ore",
+    "aetherialarcana:end_stone_aqua_ore",
+    "minecraft:iron_ore",
+    "minecraft:diamond_ore",
+    "minecraft:gold_ore",
+    "minecraft:copper_ore",
+    "minecraft:emerald_ore",
+    "minecraft:lapis_ore",
+    "minecraft:coal_ore"
+  ]
+}

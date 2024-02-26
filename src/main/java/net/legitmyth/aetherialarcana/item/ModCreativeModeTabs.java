@@ -22,6 +22,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AQUA.get());
                         output.accept(ModItems.RAW_AQUA.get());
 
+                        output.accept(ModItems.MAGIC_DETECTOR.get());
+
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
+
                         output.accept(ModBlocks.AQUA_BLOCK.get());
                         output.accept(ModBlocks.RAW_AQUA_BLOCK.get());
 

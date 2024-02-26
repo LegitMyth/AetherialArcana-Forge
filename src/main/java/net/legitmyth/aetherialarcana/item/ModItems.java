@@ -1,6 +1,7 @@
 package net.legitmyth.aetherialarcana.item;
 
 import net.legitmyth.aetherialarcana.AetherialArcana;
+import net.legitmyth.aetherialarcana.item.custom.MagicDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -15,6 +16,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_AQUA = ITEMS.register("raw_aqua",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MAGIC_DETECTOR = ITEMS.register("magic_detector",
+            () -> new MagicDetectorItem(new Item.Properties().durability(100)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

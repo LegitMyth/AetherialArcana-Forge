@@ -1,6 +1,7 @@
 package net.legitmyth.aetherialarcana.block;
 
 import net.legitmyth.aetherialarcana.AetherialArcana;
+import net.legitmyth.aetherialarcana.block.custom.SoundBlock;
 import net.legitmyth.aetherialarcana.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -37,6 +38,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> END_STONE_AQUA_ORE = registerBlock("end_stone_aqua_ore",
             () -> new DropExperienceBlock(UniformInt.of(3, 6), BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE)
                                 .strength(4f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).sound(SoundType.AMETHYST)));
 
 
 

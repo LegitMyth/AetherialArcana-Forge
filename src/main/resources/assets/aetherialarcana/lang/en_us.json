@@ -19,6 +19,7 @@
   "block.aetherialarcana.sound_block": "Sound Block",
 
   "tooltip.aetherialarcana.magic_detector.tooltip": "Detects a magical presence beneath the earth",
+  "tooltip.aetherialarcana.sound_block.tooltip": "Plays a sound when right-clicked",
 
   "creativetab.aetherial_tab": "Aetherial Tab"
 }

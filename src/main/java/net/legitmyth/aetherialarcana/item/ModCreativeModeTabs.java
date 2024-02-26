@@ -25,6 +25,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.MAGIBERRIES.get());
 
+                        output.accept(ModItems.MAGIFUEL.get());
+
                         output.accept(ModItems.MAGIC_DETECTOR.get());
 
                         output.accept(ModBlocks.SOUND_BLOCK.get());

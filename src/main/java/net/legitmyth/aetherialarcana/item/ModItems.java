@@ -18,6 +18,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> MAGIC_DETECTOR = ITEMS.register("magic_detector",
             () -> new MagicDetectorItem(new Item.Properties().durability(100)));
+    public static final RegistryObject<Item> MAGIBERRIES = ITEMS.register("magiberries",
+            () -> new Item(new Item.Properties().food(ModFoods.MAGIBERRIES)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

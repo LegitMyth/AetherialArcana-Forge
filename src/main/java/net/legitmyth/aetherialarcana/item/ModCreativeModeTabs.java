@@ -2,6 +2,7 @@ package net.legitmyth.aetherialarcana.item;
 
 import net.legitmyth.aetherialarcana.AetherialArcana;
 import net.legitmyth.aetherialarcana.block.ModBlocks;
+import net.legitmyth.aetherialarcana.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.AQUA.get());
                         output.accept(ModItems.RAW_AQUA.get());
+
+                        output.accept(ModItems.MAGIBERRIES.get());
 
                         output.accept(ModItems.MAGIC_DETECTOR.get());
 

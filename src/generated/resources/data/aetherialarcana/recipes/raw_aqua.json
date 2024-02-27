@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "aetherialarcana:raw_aqua_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "aetherialarcana:raw_aqua"
+  }
+}

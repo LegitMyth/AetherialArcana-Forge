@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "aqua",
+  "ingredient": {
+    "item": "aetherialarcana:nether_aqua_ore"
+  },
+  "result": "aetherialarcana:aqua"
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "aetherialarcana:block/raw_aqua_block"
-  }
-}

@@ -1,0 +1,8 @@
+// 1.20.4	2024-02-26T18:58:09.3235634	Loot Tables
+bf06a6f7c9e05a445b92e48228580650e7115e8c data/aetherialarcana/loot_tables/blocks/aqua_block.json
+06d97c3197c175893af45743f9fd724eef363250 data/aetherialarcana/loot_tables/blocks/aqua_ore.json
+465fe0c63cd811a7d7bd4a9ee1699a8230c6d7a8 data/aetherialarcana/loot_tables/blocks/deepslate_aqua_ore.json
+587f9ed60b52287d8742be3d27425ec1eb25af95 data/aetherialarcana/loot_tables/blocks/end_stone_aqua_ore.json
+161cd90a325c51e4f260e2814d4eb31c9c37bf28 data/aetherialarcana/loot_tables/blocks/nether_aqua_ore.json
+f284319b32848e6cb9cc4125b796fff8680674f1 data/aetherialarcana/loot_tables/blocks/raw_aqua_block.json
+daa079d921b8c091ed59163ec6f4d5cb15f24984 data/aetherialarcana/loot_tables/blocks/sound_block.json

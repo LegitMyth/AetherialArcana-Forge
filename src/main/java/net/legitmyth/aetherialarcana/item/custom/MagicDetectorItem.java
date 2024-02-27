@@ -1,5 +1,6 @@
 package net.legitmyth.aetherialarcana.item.custom;
 
+import net.legitmyth.aetherialarcana.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -64,6 +65,6 @@ public class MagicDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.is(Blocks.IRON_ORE) || state.is(Blocks.DIAMOND_ORE);
+        return state.is(ModTags.Blocks.MAGIC_DETECTOR_DETECTABLE_BLOCKS);
     }
 }

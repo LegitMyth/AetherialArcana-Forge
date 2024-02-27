@@ -1,0 +1,7 @@
+// 1.20.4	2024-02-26T18:58:09.3230636	Tags for minecraft:block mod id aetherialarcana
+112de132d533e96e989429b96851f1f38ad82de7 data/aetherialarcana/tags/blocks/magic_detector_detectable_blocks.json
+38e18d51dc48a4fd3480b1cd1ca58231e7447f2d data/forge/tags/blocks/needs_netherite_tool.json
+696e4f9a5a99c49c1a2794fde1dc3627ddef019c data/minecraft/tags/blocks/mineable/pickaxe.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_diamond_tool.json
+696e4f9a5a99c49c1a2794fde1dc3627ddef019c data/minecraft/tags/blocks/needs_iron_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_stone_tool.json

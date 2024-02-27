@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "aetherialarcana:block/deepslate_aqua_ore"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "aetherialarcana:block/raw_aqua_block"
+  }
+}

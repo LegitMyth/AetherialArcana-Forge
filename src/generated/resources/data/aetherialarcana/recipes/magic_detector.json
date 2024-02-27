@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "aetherialarcana:aqua"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  A",
+    " S ",
+    "S  "
+  ],
+  "result": {
+    "item": "aetherialarcana:magic_detector"
+  }
+}

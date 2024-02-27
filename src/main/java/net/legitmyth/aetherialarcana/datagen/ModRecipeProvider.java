@@ -5,6 +5,7 @@ import net.legitmyth.aetherialarcana.block.ModBlocks;
 import net.legitmyth.aetherialarcana.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
@@ -41,6 +42,22 @@ ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.RAW_AQUA_BLOCK.get())
                 .pattern("SSS")
                 .define('S', ModItems.RAW_AQUA.get())
                 .unlockedBy(getHasName(ModItems.RAW_AQUA.get()), has(ModItems.RAW_AQUA.get()))
+                .save(recipeOutput);
+ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SOUND_BLOCK.get())
+                .pattern(" A ")
+                .pattern("ANA")
+                .pattern(" A ")
+                .define('A', ModItems.AQUA.get())
+                .define('N', Items.NOTE_BLOCK)
+                .unlockedBy(getHasName(ModItems.RAW_AQUA.get()), has(ModItems.RAW_AQUA.get()))
+                .save(recipeOutput);
+ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.MAGIC_DETECTOR.get())
+                .pattern("  A")
+                .pattern(" S ")
+                .pattern("S  ")
+                .define('A', ModItems.AQUA.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.AQUA.get()), has(ModItems.AQUA.get()))
                 .save(recipeOutput);
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.AQUA.get(), 9)
